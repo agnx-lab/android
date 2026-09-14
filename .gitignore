@@ -1,0 +1,4 @@
+# Agnx 外置子应用（v4.2：整 .agnx/ 进 git，含 dist）
+node_modules/
+.agnx-debug-rev
+.DS_Store

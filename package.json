@@ -1,0 +1,9 @@
+{
+  "name": "@agnx-app/android",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "build": "node /Users/apple/Documents/github/agnx/scripts/sub-apps/lib/build-agnx-glue.mjs --root=.",
+    "dev": "node /Users/apple/Documents/github/agnx/scripts/sub-apps/lib/dev-watch-agnx-glue.mjs --root=."
+  }
+}

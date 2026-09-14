@@ -1,0 +1,21 @@
+{
+  "id": "android",
+  "name": "安卓投屏",
+  "version": "0.1.3",
+  "engines": {
+    "agnx": ">=1.0.0"
+  },
+  "main": "./src/index.ts",
+  "contributes": {
+    "commands": [
+      {
+        "id": "android.open",
+        "title": "安卓投屏"
+      },
+      {
+        "id": "android.agent-context",
+        "title": "安卓 Agent Context"
+      }
+    ]
+  }
+}
