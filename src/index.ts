@@ -1,5 +1,5 @@
 // 场景：com.agnx.android first-party 壳 — 打开入口 + Agent 工具；投屏引擎仍由宿主承载。
-import type { WorkspaceAppHostApi, WorkspaceAppModule } from "@getagnx/app-sdk";
+import type { WorkspaceAppHostApi, WorkspaceAppModule } from "@agnx-lab/app-sdk";
 import { registerAndroidAgentTools } from "./agent-tools";
 import { AndroidIcon } from "./android-icon";
 import {

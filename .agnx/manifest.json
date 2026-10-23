@@ -5,7 +5,7 @@
   "engines": {
     "agnx": ">=1.0.0"
   },
-  "main": "./src/index.ts",
+  "main": "./dist/index.js",
   "contributes": {
     "commands": [
       {
@@ -17,5 +17,6 @@
         "title": "安卓 Agent Context"
       }
     ]
-  }
+  },
+  "icon": "./.agnx/icon.svg"
 }

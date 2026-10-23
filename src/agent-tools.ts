@@ -1,5 +1,5 @@
 // 场景：安卓子应用向 Agent 暴露设备/截图/触控工具（Context VFS；对标 Another MCP 目录）。
-import type { AndroidHostCommand, WorkspaceAppHostApi } from "@getagnx/app-sdk";
+import type { AndroidHostCommand, WorkspaceAppHostApi } from "@agnx-lab/app-sdk";
 import { ANDROID_APP_ID } from "./constants";
 import {
   deleteAndroidMacro,

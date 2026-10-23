@@ -1,5 +1,5 @@
 // 场景：安卓宏（D4）— 触控/按键步骤序列；落盘 host.storage；回放经 host.android.runCommand。
-import type { AndroidHostCommand, WorkspaceAppHostApi } from "@getagnx/app-sdk";
+import type { AndroidHostCommand, WorkspaceAppHostApi } from "@agnx-lab/app-sdk";
 import { ANDROID_APP_ID } from "./constants";
 
 export const ANDROID_MACROS_STORAGE_KEY = "macros-v1";

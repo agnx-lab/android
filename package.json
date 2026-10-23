@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
-    "build": "node /Users/apple/Documents/github/agnx/scripts/sub-apps/lib/build-agnx-glue.mjs --root=.",
-    "dev": "node /Users/apple/Documents/github/agnx/scripts/sub-apps/lib/dev-watch-agnx-glue.mjs --root=."
+    "build": "node -e \"const p=require('path');const root=process.env.AGNX_MONOREPO_ROOT||p.join(process.env.HOME||'', 'Documents/github/agnx');const s=p.join(root,'scripts/sub-apps/lib/build-agnx-glue.mjs');try{require('fs').accessSync(s)}catch{console.error('[agnx] 找不到 '+s+';请设 AGNX_MONOREPO_ROOT 指向 Agnx 仓');process.exit(1)}require('child_process').execFileSync(process.execPath,[s,'--root=.'],{stdio:'inherit'})\"",
+    "dev": "node -e \"const p=require('path');const root=process.env.AGNX_MONOREPO_ROOT||p.join(process.env.HOME||'', 'Documents/github/agnx');const s=p.join(root,'scripts/sub-apps/lib/dev-watch-agnx-glue.mjs');try{require('fs').accessSync(s)}catch{console.error('[agnx] 找不到 '+s+';请设 AGNX_MONOREPO_ROOT 指向 Agnx 仓');process.exit(1)}require('child_process').execFileSync(process.execPath,[s,'--root=.'],{stdio:'inherit'})\""
   }
 }
